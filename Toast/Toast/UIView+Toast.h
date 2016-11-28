@@ -243,6 +243,13 @@ extern const NSString * CSToastPositionBottom;
 @property (assign, nonatomic) CGFloat verticalPadding;
 
 /**
+ The spacing from the edge of the toast view to the position origin (for top and 
+ bottom built in positions only)
+ Default is 0.0
+ */
+@property (assign, nonatomic) CGFloat verticalMargin;
+
+/**
  The corner radius. Default is 10.0.
  */
 @property (assign, nonatomic) CGFloat cornerRadius;
